@@ -12,8 +12,6 @@
   * [Domains](docs1/domains.md)
   * [Libraries](docs1/libraries/README.md)
     * [Angular](docs1/libraries/angular.md)
-* [XY](xy.md)
-* [Page 1](page-1.md)
 * [Docs2](docs2/README.md)
   * [Docs2](docs2/SUMMARY.md)
 * [sub](sub/README.md)

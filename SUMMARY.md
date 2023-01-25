@@ -2,8 +2,11 @@
 
 * [gitbooks3](README.md)
 * [docs2](docs1/README.md)
-  * [DevOps](docs1/summary/README.md)
+  * [DevOps](docs1/SUMMARY.md)
+    * [DevOps1](docs1/summary/devops1.md)
     * [DevOps2](docs1/summary/devops2.md)
+    * [DevOps3](docs1/summary/devops3.md)
+  * [Apps](docs1/apps.md)
 * [XY](xy.md)
 * [Page 1](page-1.md)
 * [Docs2](docs2/README.md)

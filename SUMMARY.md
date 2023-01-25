@@ -2,7 +2,10 @@
 
 * [gitbooks3](README.md)
 * [docs2](docs1/README.md)
-  * [DevOps](docs1/SUMMARY.md)
+  * [DevOps](docs1/summary/README.md)
+    * [DevOps2](docs1/summary/devops2.md)
+* [XY](xy.md)
+* [Page 1](page-1.md)
 * [Docs2](docs2/README.md)
   * [Docs2](docs2/SUMMARY.md)
 * [sub](sub/README.md)

@@ -1,0 +1,23 @@
+{
+    "title": "My Awesome Book",
+    "author": "John Doe",
+    "description": "This is a sample book to demonstrate GitBook's capabilities",
+    "language": "en",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "links": {
+        "sidebar": {
+            "Home": "https://example.com",
+            "About": "https://example.com/about"
+        }
+    },
+    "plugins": [
+    ],
+    "pluginsConfig": {
+        "header": {
+          "content": "<script>console.log('>> Test JS!')</script>"
+        }
+      }
+}

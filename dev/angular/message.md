@@ -8,6 +8,13 @@ This is my data
 | D | D | D |
 | D | D | D |
 
+Go
+
+<script>
+    // your custom JavaScript code here
+    console.log('>>> Got IT!')
+</script>
+
 <table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>sdf</td><td></td></tr><tr><td></td><td></td><td>asdf</td></tr><tr><td></td><td>sdf</td><td></td></tr></tbody></table>
 
 {% swagger method="get" path="/flying/users" baseUrl="https" summary="" %}

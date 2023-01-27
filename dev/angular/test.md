@@ -1,4 +1,4 @@
-# Get Amazon Deleted Designs
+# Test2
 
 - Lets go
 
@@ -6,29 +6,30 @@
 
 ### Description
 
-- This API provides deleted designs data by amazon.
-
-- This API is used in the following Applications: 
-
-    - `WebApp`
+* This API provides deleted designs data by amazon.
+* This API is used in the following Applications:
+  * `WebApp`
 
 ### Notes
 
-- n/a
+* n/a
 
+***
 
-----
 ## 2. API Info
 
 ### Methods / URL
 
-    GET: {HOST}/research/deleted-designs/{SEARCH_TERM}
+```
+GET: {HOST}/research/deleted-designs/{SEARCH_TERM}
+```
 
 ### Parameters
 
 ```javascript
     SEARCH_TERM : STRING [1]
 ```
+
 ```
     [1] SEARCH_TERM is optional
 ```
@@ -45,6 +46,7 @@
     to_date         : Date
     
 ```
+
 ```javascript
     // Values for the parameters
     [1] "sort_by" values: "newest" / "oldest" / "bsr" / "price" / "relevant" / "random" / "review"
@@ -52,9 +54,10 @@
     [3] Values : 'all_markets', 'com', 'co_uk', 'de', 'fr', 'it', 'es'
 ```
 
-&nbsp;
+&#x20;
 
------
+***
+
 ## 3. Response
 
 ### Success
@@ -64,6 +67,7 @@
     HTTP message    : OK
     Response type   : JSON
 ```
+
 ```javascript
     {
         "result" : [
@@ -88,16 +92,17 @@
 
 ### Error
 
- - Please check `common error responses` [here](../common/error_response.md).
+* Please check `common error responses` [here](../common/error\_response.md).
+* Please check `HTTP status codes` [here](../common/http\_code.md).
 
- - Please check `HTTP status codes` [here](../common/http_code.md).
+&#x20;
 
-&nbsp;
+***
 
-----
 ## 4. Examples
 
 ### Example 1: get deleted designs result
+
 ```javascript
     //Request
     GET: {HOST}/research/deleted-designs/{SEARCH TERM}
